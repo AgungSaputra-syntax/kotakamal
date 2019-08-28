@@ -1,0 +1,5187 @@
+/* Navber */
+.navbar{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: normal;
+    background: rgba(0, 0, 0, .6)!important;
+    padding: 7px 40px;
+}
+
+.navbar-nav li{
+    padding-right: .7rem;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8rem;
+}
+
+
+.navbar-dark .navbar-nav,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: #00FF00;
+}
+/* Akhir Navbar */
+
+/* Boder Atas Index */
+.border-index,
+.border-index-card{
+    padding: 0 72px;
+}
+.border-atas-index{
+    background-color: #243234;
+    padding: 18px 0;
+}
+
+.border-dalam-index{
+    border-radius: 11px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #4A585A;
+    padding: 18px 0;
+}
+
+.col-md-index{
+    padding: 0;
+}
+
+.logo-dalam-kiri{
+    display: flex;
+    padding: 0 72px;
+    border-right: 1px solid #ffffff; 
+}
+
+.logo-dalam-kanan{
+    display: flex;
+    padding: 0 100px;
+}
+
+.img-border{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.text-dalam-kiri,
+.text-dalam-kanan{
+    padding: 0 10px;
+}
+
+.text-isi-kiri,
+.text-isi-kanan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.num-isi-kiri,
+.num-isi-kanan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+@media (max-width:1199px){
+    .text-isi-kiri,
+    .text-isi-kanan{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .num-isi-kiri,
+    .num-isi-kanan{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #12c37f;
+    }
+
+    .logo-dalam-kiri{
+        display: flex;
+        padding: 0 63px;
+        border-right: 1px solid #ffffff; 
+    }
+    
+    .logo-dalam-kanan{
+        display: flex;
+        padding: 0 81px;
+    }
+
+    .img-border{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:991px){
+    .text-isi-kiri,
+    .text-isi-kanan{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .num-isi-kiri,
+    .num-isi-kanan{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #12c37f;
+    }
+
+    .logo-dalam-kiri{
+        display: flex;
+        padding: 0 79px 18px;
+        border: none;
+    }
+    
+    .logo-dalam-kanan{
+        display: flex;
+        padding: 0 66px;
+    }
+
+    .img-border{
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:768px){
+    .text-isi-kiri,
+    .text-isi-kanan{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .num-isi-kiri,
+    .num-isi-kanan{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #12c37f;
+    }
+
+    .logo-dalam-kiri{
+        display: flex;
+        padding: 0 95px;
+    }
+    
+    .logo-dalam-kanan{
+        display: flex;
+        padding: 0 81px;
+        margin-top: 25px;
+    }
+
+    .img-border{
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+}
+/* Akhir Border Atas Index */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Index Card Kotak Amal */
+.container-donasi{
+    background-color: #ababab;
+}
+
+.judul-kotakamal{
+    margin-top: 45px;
+    margin-bottom: 36px;
+}
+
+.judul-kotakamal p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.judul-kotakamal img{
+    width: 300px;
+    object-fit: contain;
+    margin-bottom: 9px;
+}
+
+.card-kontakamal{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+}
+
+.card-kotakamal a{
+    width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    text-decoration: none;
+}
+
+.card-body-kotakamal{
+    height: 210px;
+    padding: 18px 64px;
+}
+
+.card-body-kotakamal:hover{
+    height: 210px;
+    padding: 17px 63px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    transform: scale(1.02);width: 100%;
+    height: 210px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    border-bottom: 5px solid #c31256;
+}
+
+.card-title-kotakamal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+.card-text-kotakamal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+@media (max-width:1199px){
+    .card-body-kotakamal {
+        height: 210px;
+        padding: 18px 13px;
+    }
+}
+
+@media (max-width:991px){
+    .card-kotakamal{
+        margin-top: 15px;
+    }
+
+    .judul-kotakamal p{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+    
+    .judul-kotakamal img{
+        width: 250px;
+        object-fit: contain;
+        margin-bottom: 9px;
+    }
+}
+    
+
+/* Akhir Index Card Kotak Amal */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Program Donasi */
+.container-program-donasi{
+    padding-top: 40px;
+}
+
+.program-donasi{
+    margin-top: 80px;
+    background-color: #f6f6f6;
+}
+
+.program-donasi .donasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.card-deck-donasi{
+    margin-top: 32px;
+}
+
+.card-deck-donasi1{
+    margin-top: 64px;
+}
+
+.card-deck .card-donasi{
+    padding: 5px;
+    margin: 0;
+}
+
+.card-deck .card-donasi:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    transform: scale(1.02);
+}
+
+.card-img-top-donasi{
+    border-radius: .25rem;
+}
+
+.card-title-donasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.text-muted-atas-donasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-text-donasi{
+    height: 111px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.progress-bawah{
+    /* width: 285px; */
+    height: 24.2px;
+    margin: 36px 0 22px 0px;
+    border-radius: 17px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #12c37f;
+    position: relative;
+    /* top: 110px; */
+    border: .5px solid #ababab;
+}
+  
+.progress-atas{
+    height: 25.2px;
+    border-radius: 17px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    color: #c31256;
+    border: .5px solid #ababab;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+.number-bawah{
+    display: flex;
+}
+
+.number-logo{
+    position: relative;
+    top: 5px;
+}
+
+.number-bawah .number{
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+.button-donasi{
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 54px 15px 0 15px;
+    width: 90%;
+}
+
+.button-donasi:hover{
+    transform: scale(1.02);
+    font-size: 19px;
+}
+
+.btn-all-donasi{
+    margin-top: 36px;
+    width: 229px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 54px;
+}
+
+.btn-all-donasi:hover{
+    transform: scale(1.02);
+    font-size: 18px;
+}
+
+@media (max-width:1199px){
+    .card-title-donasi {
+        height: 63px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    .button-donasi{
+        margin: 54px 45px 0 30px;
+    }
+} 
+/* Akhir Program Donasi */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Artikel */
+.wrapper{
+    width:100%;
+    padding-top: 20px;
+    /* text-align:center; */
+}
+
+.judul-slick-index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    text-align: center;
+    margin: 36px 0;
+}
+
+.slick-index{
+    width:100%;
+    margin:0px auto;
+}
+
+.slick-slide{
+    margin:10px;
+}
+
+.slick-slide img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 2px solid #fff;
+}
+
+.slick-prev:before, .slick-next:before{
+    color: #c31256;
+}
+
+.card-body-wrapper{
+    padding: 9px 9px 0 0;
+}
+
+.card-title-wrapper{
+    height: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.text-muted-wrapper{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-text-wrapper{
+    height: 106px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.btn-wrapper{
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    line-height: 0;
+    margin: 0 31px 9px;
+}
+
+.btn-wrapper:hover{
+    transform: scale(1.01);
+    font-size: 13px;
+}
+
+.btn-all-artikel{
+    margin-top: 36px;
+    width: 229px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 54px;
+}
+
+.btn-all-artikel:hover{
+    transform: scale(1.02);
+    font-size: 18px;
+}
+
+@media (max-width:1199px){
+    .card-title-wrapper{
+        height: 32px;
+        font-size: 11px;
+    }
+
+    .card-text-wrapper{
+        height: 117px;
+        font-size: 14px;
+    }
+
+    .btn-wrapper{
+        font-size: 11px;
+        margin: 0 17px 9px;
+    }
+}
+
+@media (max-width:991px){
+    .card-title-wrapper{
+        text-align: center;
+        font-size: 13px;
+    }  
+
+    .text-muted-wrapper{
+        padding: 0 5px;
+    }
+
+    .card-text-wrapper{
+        padding: 0 5px;
+        font-size: 15px;
+    }
+
+    .btn-wrapper{
+        font-size: 11px;
+        margin: 0 17px 9px;
+        width: 90%;
+    }
+
+    .btn-all-artikel{
+        width: 190px;
+        font-size: 15px;    
+    }
+}
+
+/* Akhir Artikel */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Border Bawah Index */
+.row-index{
+    margin: 0;
+}
+.border-bawah-index{
+    background-color: #243234;
+    padding: 15px 0;
+}
+
+.border-bawah-index span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.border-bawah-index .form-border-dalam-index{
+    width: 100%;
+    height: 27px;
+    opacity: 0.8;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: #ffffff;
+}
+
+.btn-border-bawah-index{
+    width: 145.1px;
+    height: 27px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    line-height: 0;
+}
+
+@media(max-width:1318px){
+    .border-bawah-index span{
+        font-size: 13px
+    }
+}
+
+@media(max-width:1024px){
+    .border-bawah-index span{
+        font-size: 10px
+    }
+}
+
+@media(max-width:1024px){
+    .border-bawah-index span{
+        font-size: 13px;
+    }
+    
+    .border-bawah-index .form-border-dalam-index{
+        margin-top: 5px;
+    }
+}
+
+@media(max-width:425px){
+    .border-bawah-index span{
+        font-size: 11px;
+    }
+    
+    .border-bawah-index .form-border-dalam-index{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+/* Border Bawah Index */
+
+.modal-header-index{
+    border: none;
+}
+
+.modal-title-index{
+    padding: 63px 138px 10px 149px;
+}
+
+.modal-title-index p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #494949;
+}
+
+.modal-body-index{
+    padding: 0 50px;
+}
+
+.modal-body-index p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #494949;
+    margin-bottom: 36px;
+}
+
+.form-control-index{
+    margin-bottom: 72px;
+}
+
+.modal-footer-index{
+    border: none;
+    padding: 10px 179px 54px;
+}
+
+.modal-footer-index button{
+    height: 54px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+}
+
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* Index */
+.footer-index{
+    background-image: url(../img/footer.png);
+    /* height: 400px; */
+    background-size: cover;
+}
+
+.row-footer-index,
+.col-footer-index{
+    padding: 0 0 50px 0;
+}
+
+.img-footer{
+    margin-top: 63px;
+    margin-bottom: 36px;
+    width: 230px;
+}
+
+.text-muted-index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 27px;
+}
+
+.sosmed-index img{
+    width: 30px;
+    object-fit: contain;
+    margin-right: 30px;
+}
+
+.judul-text-index{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.text-index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.text-index a{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+@media(max-width:768px){
+    .col-footer-index{
+        padding: 0 0 10px 0;
+    }
+}
+/* ---------- Akhir Index ---------- */
+/* -------------------------------------------------- */
+
+/* -------------------------------------------------- */
+/* ---------- Footer Bawah Index ---------- */
+.footer-bawah-index{
+    border: solid 1px #707070;
+    background-color: #243234;
+    padding: 15px;
+}
+
+.footer-bawah-index span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+/* ---------- Akhir Footer Bawah Index ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Login */
+.body-login{
+    background-image: url('../img/background-transparan-koin.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box .inputBox1{
+    position: relative;
+}
+
+.box .inputBox2{
+    position: relative;
+}
+
+.box .inputBox1 input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #696666;
+    margin-bottom: 5px;
+    border: none;
+    border-bottom: 1px solid #696666;
+    outline: 0;
+    background: transparent; 
+}
+
+.box .inputBox2 input{
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #696666;
+    /* margin-bottom: 30px; */
+    border: none;
+    border-bottom: 1px solid #696666;
+    outline: 0;
+    background: transparent; 
+}
+
+.box .inputBox label{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: #696666;
+    pointer-events: none;
+    transition: .5s;
+}
+
+.box .inputBox1 input:focus ~ label,
+.box .inputBox1 input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #c31256;
+    font-size: 12px;
+}
+
+.box .inputBox2 input:focus ~ label,
+.box .inputBox2 input:valid ~ label{
+    top: -18px;
+    left: 0;
+    color: #c31256;
+    font-size: 12px;
+}
+
+.box input[type="submit"]{
+    width: 134.4px;
+    height: 39.1px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    background-color: #c31256;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    line-height: 0;
+}  
+
+.field-icon-login {
+    float: right;
+    margin-left: -25px;
+    margin-top: -56px;
+    position: relative;
+    right: 13px;
+    z-index: 2;
+}
+
+.login{
+    width: 100%;
+    border-radius: 50px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    margin: 80px auto;
+    border-radius: 10px;
+    display: flex;
+}
+  
+.img-login{
+    height: 100%;
+    object-fit: cover;
+}
+  
+.img-login img{
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    height: 100%;
+}
+  
+.top-login{
+    display: flex;
+}
+  
+.top-login i{
+    position: relative;
+    bottom: 20px;
+    color: black;
+}
+  
+.text-log{
+    flex: 1;
+    position: relative;
+    bottom: 20px;
+    font-weight: bolder;
+}
+  
+.form-login{
+    padding: 50px 40px 0px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex: 1;
+  
+}
+  
+.form-check.remember{
+    position: relative;
+    bottom: 20px;
+    margin-bottom: 27px;
+}
+  
+.warning{
+    display: flex;
+}
+  
+.warning label{
+    flex: 1;
+}
+  
+.warning .link-modal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: grey;
+    text-decoration: none;
+}
+  
+
+.btn.btn-login a{
+    text-decoration: none;
+    color: white;
+}
+  
+.btn.btn-login a:hover{
+    font-weight: bold;
+}
+  
+.text-bawah-login .text-daftar{
+    margin-top: 5px;
+}
+  
+.text-bawah-login a{
+    color: #c31256;
+    text-decoration: none;
+}
+  
+.text-bawah-login a:hover{
+    color: #c31256;
+    text-decoration: none;
+    font-weight: bold;
+}
+  
+.text-masuk{
+    margin-top: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+  
+.link-masuk{
+    padding-bottom: 10px;
+}
+  
+.btn.btn-fb{
+    width: 142px;
+    height: 36px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #475993;
+    border: none;
+}
+  
+.btn.btn-g{
+    width: 142px;
+    height: 36px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #f34a38;
+    border: none;
+}
+  
+.login-fb{
+    position: relative;
+    bottom: 3px;
+}
+  
+@media(max-width:1042px){
+    .login{
+      display: block;
+      width: 70%;
+    }
+  
+    .img-login{
+      height: 400px;
+      object-fit: contain;
+    }
+}
+/* Akhir Login */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Register */
+.form-group-register label{
+    /* width: 26px; */
+    height: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 9px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #696666;
+    text-transform: uppercase;
+}
+  
+.form-group-register.pass{
+    display: flex;
+}
+  
+.form-group-register .form-control.pass1{
+    flex: 1;
+}
+  
+.table-login{
+    position: relative;
+    bottom: 13px;
+}
+/* ---------- Akhir Register ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Sedekah ----------  */
+.navbar-sedekah{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: normal;
+    background: rgb(65, 206, 152)!important;
+    padding: 7px 40px;
+}
+
+.masuk .nav-item-sedekah .nav-link-sedekah{
+    color: #c31256;   
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.masuk .nav-item-sedekah .nav-link-sedekah:hover{
+    color: #ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link-sedekah-1{
+    color: white;
+    padding-top: .8rem;
+}
+
+
+.navbar-dark .navbar-nav .nav-link-sedekah-1:hover{
+    color: #c31256;
+}
+
+.img-profile-navbar{
+    position: relative;
+    top: 6px;
+}
+
+.img-profile-navbar img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.btn-index:hover,
+.btn-index:active,
+.btn-index:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btn-index{
+    padding: 0;
+}
+
+.btn-toggle-navbar{
+    background: transparent;
+    color: #fff;
+}
+
+.dropdown-menu-index{
+    padding: 5px 5px 15px;
+    width: 285px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.16);
+    background-color: #5dc19a;
+    right: 0;
+    left: auto;
+}
+
+.nama-drop-index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.row-img-dropdown{
+    margin-bottom: -5px;
+}
+
+.row-img-dropdown .list-img-dropdown-img{
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.row-list-dropdown .list-img-dropdown-give1{
+    width: 27.2px;
+    height: 20.4px;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.row-list-dropdown .list-img-dropdown-list{
+    width: 18.9px;
+    height: 25.2px;
+    object-fit: contain;
+    margin-left: 5px;
+    border-radius: 0;
+}
+
+.row-list-dropdown .list-img-dropdown-logout{
+    width: 23.7px;
+    height: 23.6px;
+    object-fit: contain;
+    border-radius: 0;
+    margin-left: 5px
+}
+
+.row-list-dropdown .list-img-dropdown-eye{
+    width: 29.5px;
+    height: 16.7px;
+    object-fit: contain;
+    border-radius: 0;
+}
+
+.email-drop-index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: -4px;
+}
+
+.list-drop-index{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.list-drop-index a{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.row-list-dropdown{
+    padding: 13px 2px;
+    border-bottom: 1px solid #fff;
+}
+
+
+.bg-sedekah{
+    /* background-image: url(../img/bg-sedekah.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 90%;
+    background-position: center;
+}
+
+/* Sedekah */
+.border-atas-sedekah{
+    padding: 0 63px;
+}
+
+.card-atas-sedekah{
+    height: 240px;
+    position: relative;
+    top: -110px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    padding: 20px 37px;
+
+    padding: 17px 63px;
+    transform: scale(1.02);
+    border-bottom: 5px solid #c31256;
+}
+
+.border-atas-sedekah-1{
+    padding: 0 63px;
+}
+
+.card-atas-sedekah-1{
+    height: 240px;
+    position: relative;
+    top: -110px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    padding: 20px 37px;
+}
+
+.card-atas-sedekah-1 a{
+    text-decoration: none;
+}
+
+.card-atas-sedekah-1:hover{
+    padding: 17px 43px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    transform: scale(1.02);width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    border-bottom: 5px solid #c31256;
+}
+
+.card-title-sedekah{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+.card-text-sedekah{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+/* Akhir Sedekah */
+
+/* Pembayaran Sedekah */
+.border-sedekah{
+    width: 100%;
+    height: 81px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    border-radius: 10px 10px 0 0;
+}
+
+.border-sedekah h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 81px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* Akhir Pembayaran Sedekah */
+
+
+/* Pembayaran Sedekah */
+
+.card-bawah-sedekah{
+    border-radius: 0 0 10px 10px; 
+    margin-bottom: 81px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+
+/* dropdown */
+.nom__dropdown {
+    height: 40px; /* sama kan */
+    width: 95%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+.nom__dropdown__field {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    padding: 0 16px;
+    display: flex;
+    width: 100%;
+}
+.nom__dropdown__field__input {
+    padding-left: 4px;
+    border:none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+.nom__dropdown__btn {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.nom__dropdown__list-wrapper {
+    position: absolute;
+    top: 40px; /* sama kan */
+    width: 100%;
+    border: 1px solid gray;
+    padding: 8px 0;
+    display: none;
+    z-index: 2;
+    background-color: #fff;
+}
+.nom__dropdown__list-wrapper._active {
+    display: block;
+}
+.nom__dropdown__list-wrapper button {
+    width: 100%;
+    text-align: left;
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: .2s ease-in-out;
+}
+.nom__dropdown__list-wrapper button:hover {
+    background-color: #ececec;
+}
+.nom__dropdown__list-wrapper button label {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    margin: -8px -16px;
+    padding: 8px 16px;
+}
+/* dropdown */
+
+.title-sedekah{
+    /* width: 214px; */
+    height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 54px;
+}
+
+.form-sedekah{
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+}
+
+.text-nominal{
+    height: 21px;
+    opacity: 0.77;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    position: relative;
+    bottom: 10px;
+}
+
+.form-sedekah-1{
+    width: 95%;
+    border-radius: 11px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 16px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #b9b9b9;
+}
+
+.check-sedekah{
+    position: relative;
+    bottom: 27px;;
+}
+
+.title-doa{
+    /* width: 214px; */
+    height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.control-sedekah{
+    width: 100%;
+    height: 137px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+
+.check-label-sedekah{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position: relative;
+    bottom: 4px;
+}
+
+.check-sedekah-1{
+    position: relative;
+    bottom: 13px;;
+}
+
+.btn-sedekah-1{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.btn-sedekah-1:hover{
+    transform: scale(1.01);
+    font-size: 17px;
+}
+
+@media(max-width:1199px){
+    .card-atas-sedekah{
+        padding: 20px 0;
+    }
+}
+
+@media(max-width:991px){
+    .card-atas-sedekah{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .card-atas-sedekah{
+        margin-bottom: 15px;
+    }
+}
+/* Pembayaran Sedekah */
+
+/* ---------- Akhir Sedekah ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Zakat ---------- */
+.bg-zakat{
+    /* background-image: url(../img/bgzakat.png); */
+    height: 90%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.border-atas-zakat{
+    padding: 0 63px;
+}
+
+.card-atas-zakat{
+    height: 240px;
+    position: relative;
+    top: -110px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    padding: 20px 37px;
+}
+
+.card-atas-zakat:hover{
+    padding: 17px 43px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    transform: scale(1.02);width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+    border-bottom: 5px solid #c31256;
+}
+
+.card-atas-zakat a{
+    text-decoration: none;
+}
+
+.border-atas-zakat-1{
+    padding: 0 63px;
+}
+
+.card-atas-zakat-1{
+    height: 240px;
+    position: relative;
+    top: -110px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #bcbcbc;
+    background-color: #ffffff;
+
+    padding: 17px 63px;
+    transform: scale(1.02);
+    border-bottom: 5px solid #c31256;
+}
+
+.card-title-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+.card-text-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+@media(max-width:1199px){
+    .card-atas-zakat{
+        padding: 20px 0;
+    }
+}
+
+@media(max-width:991px){
+    .card-atas-zakat{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .card-atas-zakat{
+        margin-bottom: 15px;
+    }
+}
+
+/* Border Atas Index */
+.border-zakat,
+.border-zakat-card{
+    padding: 0 72px;
+}
+.border-atas-zakat-1{
+    background-color: #243234;
+    padding: 18px 0;
+}
+
+.border-dalam-zakat{
+    border-radius: 11px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #4A585A;
+    padding: 18px 0;
+}
+
+.col-md-zakat{
+    padding: 0;
+}
+
+.logo-dalam-kiri-zakat{
+    display: flex;
+    padding: 0 72px;
+    border-right: 1px solid #ffffff; 
+}
+
+.logo-dalam-kanan-zakat{
+    display: flex;
+    padding: 0 100px;
+}
+
+.img-border-zakat{
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.text-dalam-kiri-zakat,
+.text-dalam-kanan-zakat{
+    padding: 0 10px;
+}
+
+.text-isi-kiri-zakat,
+.text-isi-kanan-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.num-isi-kiri-zakat,
+.num-isi-kanan-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 26px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+@media (max-width:1199px){
+    .text-isi-kiri-zakat,
+    .text-isi-kanan-zakat{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 12px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .num-isi-kiri-zakat,
+    .num-isi-kanan-zakat{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #12c37f;
+    }
+
+    .logo-dalam-kiri-zakat{
+        display: flex;
+        padding: 0 63px;
+        border-right: 1px solid #ffffff; 
+    }
+    
+    .logo-dalam-kanan-zakat{
+        display: flex;
+        padding: 0 81px;
+    }
+
+    .img-border-zakat{
+        width: 50px;
+        height: 50px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:991px){
+    .text-isi-kiri-zakat,
+    .text-isi-kanan-zakat{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .num-isi-kiri-zakat,
+    .num-isi-kanan-zakat{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 20px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #12c37f;
+    }
+
+    .logo-dalam-kiri-zakat{
+        display: flex;
+        padding: 0 79px 18px;
+        border: none;
+    }
+    
+    .logo-dalam-kanan-zakat{
+        display: flex;
+        padding: 0 66px;
+    }
+
+    .img-border-zakat{
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+}
+
+@media (max-width:768px){
+    .text-isi-kiri-zakat,
+    .text-isi-kanan-zakat{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #ffffff;
+    }
+
+    .num-isi-kiri-zakat,
+    .num-isi-kanan-zakat{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 25px;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #12c37f;
+    }
+
+    .logo-dalam-kiri-zakat{
+        display: flex;
+        padding: 0 95px;
+    }
+    
+    .logo-dalam-kanan-zakat{
+        display: flex;
+        padding: 0 81px;
+        margin-top: 25px;
+    }
+
+    .img-border-zakat{
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+    }
+}
+
+
+/* Text Tunaikan Zakat */
+.tunaikan-zakat{
+    padding: 0 290px;
+    margin-bottom: 63px;
+}
+
+.judul-tunaikan-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 27px;
+    margin-top: 81px;
+}
+
+.text-tunaikan-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+/* Text Tunaikan Zakat */
+
+
+/* Nav Tabs */
+.nav-tabs-zakat{
+    margin: 0px auto;
+    padding: 2px 17px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link{
+    border: none;
+    color: #696666;
+    line-height: 30px;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c31256;
+    line-height: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid #c31256;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link:not(:last-child){
+    border-right: 1px solid #dee2e6;
+}
+
+.nav-item.nav-link.nav-link-pembayaran:active,
+.nav-item.nav-link.nav-link-pembayaran:hover{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c31256;
+}
+
+.tab-content-all-zakat{
+    padding: 20px;
+}
+
+.col-kanan-zakat{
+    margin-left: 30px;
+}
+
+.col-kanan-zakat h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 36px;
+}
+
+.col-zakat-kanan{
+    border-right: 1px solid #dee2e6;
+}
+
+.col-zakat-kanan h4{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 36px;
+}
+
+.col-zakat-kanan .text-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+    margin-bottom: 36px;
+}
+
+.text-dalam-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.num-dalam-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.text-bawah-paragraf{
+    height: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.parg-bawah{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+    margin-top: 18px;
+}
+
+.col-zakat-kiri{
+    margin-left: 36px;
+    margin-top: 40px;
+}
+
+.col-zakat-kiri .text-kalkulator{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.kalkulator-zakat{
+    margin-top: 36px;
+}
+
+.lbl-kal{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.form-control-zakat{
+    width: 90%;
+    padding: 3px 10px;
+    border-radius: 6px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+
+.text-kiri-kalkulator{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+    margin-top: 36px;
+}
+
+.num-kiri-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.btn-zakat{
+    width: 75%;
+    border-radius: 7px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-bottom: 54px;
+    margin-top: 27px;
+}
+
+.btn-zakat:hover{
+    transform: scale(1.01);
+    font-size: 23px;
+}
+
+@media(max-width:1199px){
+    .judul-tunaikan-zakat{
+        font-size: 26px;
+    }
+
+    .text-tunaikan-zakat{
+        font-size: 12px;
+    }
+
+    .tunaikan-zakat{
+        padding: 0 248px;
+    }
+}
+
+@media(max-width:991px){
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        font-size: 12px;
+        line-height: 30px;  
+    }
+
+    .judul-tunaikan-zakat{
+        font-size: 24px;
+    }
+
+    .text-tunaikan-zakat{
+        font-size: 12px;
+    }
+
+    .tunaikan-zakat{
+        padding: 0 216px;
+    }
+}
+
+@media(max-width:768px){
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active{
+        font-size: 12px;
+        line-height: 30px;  
+    }
+
+    .judul-tunaikan-zakat{
+        font-size: 22px;
+    }
+
+    .text-tunaikan-zakat{
+        font-size: 10px;
+    }
+
+    .tunaikan-zakat{
+        padding: 0 170px;
+    }
+}
+
+/* Akhir Border Atas Index */
+/* ---------- Akhir Zakat ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Program ---------- */
+.bg-program{
+    background-image: url(../img/bgprogram.png);
+    width: 100%;
+    height: 671px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container-program{
+    padding: 0 102px;
+}
+
+.search-program-img{
+    width: 100%;
+    height: 64px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #707070;
+    background-color: #ffffff;
+    position: relative;
+    top: 400px;
+    /* left: 244px; */
+    display: flex;
+}
+
+.btn-search-program{
+    width: 111px;
+    height: 48px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    margin-top: 7px;
+    margin-right: 9px;
+}
+
+.dropdown {
+    flex: 1;
+}
+
+.btn.btn-secondary.dropdown-toggle.btn-program{
+    background-color: white;
+    color: black;
+    border: none;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.border-program{
+    position: relative;
+    bottom: 170px
+}
+
+.card-deck-program1{
+    margin-top: 64px;
+}
+
+.card-deck-program{
+    margin-top: 32px;
+}
+
+.card-deck .card-progran{
+    padding: 5px;
+    margin: 0;
+}
+
+
+.card-img-top-program{
+    border-radius: .25rem;
+}
+.card-program{
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    padding: 5px;
+}
+
+.card-program:hover{
+    background-color: #ffffff;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    transform: scale(1.02);
+}
+
+.card-title-program{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.text-muted-atas-program{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-text-program{
+    height: 111px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.progress-bawah-program{
+    /* width: 285px; */
+    height: 24.2px;
+    margin: 36px 0 22px 0px;
+    border-radius: 17px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #12c37f;
+    position: relative;
+    /* top: 110px; */
+    border: .5px solid #ababab;
+}
+  
+.progress-atas-program{
+    height: 25.2px;
+    border-radius: 17px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    color: #c31256;
+    border: .5px solid #ababab;
+    position: relative;
+    top: -1px;
+    left: -1px;
+}
+
+.number-bawah-program{
+    display: flex;
+}
+
+.number-logo-program{
+    position: relative;
+    top: 5px;
+}
+
+.button-program{
+    height: 40px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin: 54px 15px 0 15px;
+    width: 90%;
+}
+
+.number-bawah-program .number-program{
+    flex: 1;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 23px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #12c37f;
+}
+
+.btn-all-program{
+    margin-top: 36px;
+    width: 229px;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 54px;
+}
+
+.row-program{
+    margin: 0;
+}
+
+.border-bawah-program{
+    background-color: #243234;
+    padding: 15px 0;
+    margin-top: -135px;
+}
+
+.border-bawah-program span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.border-bawah-program .form-border-dalam-program{
+    width: 100%;
+    height: 27px;
+    opacity: 0.8;
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: #ffffff;
+}
+
+.btn-border-bawah-program{
+    width: 145.1px;
+    height: 27px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    line-height: 0;
+}
+
+@media(max-width:1318px){
+    .border-bawah-program span{
+        font-size: 13px
+    }
+}
+
+@media(max-width:1024px){
+    .border-bawah-program span{
+        font-size: 10px
+    }
+}
+
+@media(max-width:1024px){
+    .border-bawah-program span{
+        font-size: 13px;
+    }
+    
+    .border-bawah-program .form-border-dalam-program{
+        margin-top: 5px;
+    }
+}
+
+@media (max-width:1199px){
+    .card-title-donasi {
+        height: 63px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: bold;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        color: #000000;
+    }
+
+    .button-donasi{
+        margin: 54px 45px 0 11px;
+    }
+}
+
+@media(max-width:425px){
+    .border-bawah-program span{
+        font-size: 11px;
+    }
+    
+    .border-bawah-program .form-border-dalam-program{
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+}
+
+/* ---------- Akhir Program ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Artikel ---------- */
+.bg-artikel{
+    background-image: url(../img/bg-art.png);
+    width: 100%;
+    height: 428px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* background-attachment: fixed; */
+    position: relative;
+}
+
+.bg-isi-artikel{
+    background-color: #efefef;
+    padding: 45px 0;
+}
+
+.container-artikel{
+    padding: 0 102px;
+}
+
+.media-artikel{
+    border-radius: 10px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #cccccc;
+    background-color: #ffffff;
+    margin-bottom: 63px;
+}
+
+.media-artikel:hover{
+    background-color: #ffffff;box-shadow: 2px 2px 2px rgba(0, 0, 0, .4);
+    transform: scale(1.02);
+}
+
+.search-artikel-img{
+    width: 100%;
+    height: 64px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #707070;
+    background-color: #ffffff;
+    position: relative;
+    top: 300px;
+    /* left: 244px; */
+    display: flex;
+}
+
+.media-body-artikel{
+    padding: 13px 13px 0 13px;
+}
+
+.card-body-judul-text{
+    width: 246px;
+    height: 80px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-bottom: 9px;
+}
+
+.card-body-small-text{
+    height: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-body-paragraf-text{
+    height: 130px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.btn-isi-artikel{
+    width: 167.2px;
+    height: 34px;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #c31256;
+    color: white;
+}
+
+.btn-isi-artikel:hover{
+    transform: scale(1.05);
+}
+
+.btn-search-artikel{
+    width: 111px;
+    height: 48px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    margin-top: 7px;
+    margin-right: 9px;
+}
+
+.dropdown {
+    flex: 1;
+}
+
+.btn.btn-secondary.dropdown-toggle.btn-artikel{
+    background-color: white;
+    color: black;
+    border: none;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    margin-top: 15px;
+    margin-left: 7px;
+}
+
+.judul-artikel-kanan{
+    height: 60px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-left: 36px;
+}
+
+.border-artikel-populer{
+    height: 599px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 14px 18px;
+    border-radius: 7px 7px 0 0;
+    border-bottom: 10px solid #c31256;
+    margin-bottom: 54px;
+}
+
+.isi-artikel-populer:not(:last-child){
+    border-bottom: 1px solid #c31256; 
+}
+
+.isi-artikel-populer{
+    padding: 18px 0;
+}
+
+.isi-artikel-populer:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.col-kanan-isi-artikel{
+    padding: 0 27px;
+}
+
+.judul-isi-artikel {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.small-isi-artikel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.text-isi-artikel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.border-artikel-terbaru{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-radius: 7px 7px 0 0;
+    border-bottom: 10px solid #c31256;
+    padding: 27px 18px 10px;
+}
+
+.isi-artikel-terbaru{
+    padding: 9px 27px;
+}
+
+.isi-artikel-terbaru:hover{
+    background-color: rgb(194, 194, 194);
+}
+
+.judul-artikel-terbaru{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.text-artikel-terbaru{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.isi-artikel-terbaru:not(:last-child){
+    border-bottom: 1px solid #c31256;
+}
+/* Card Artikel */
+
+/* Border-Bawah-Sedekah */
+    .border-bawah-artikel{
+        /* margin-top: px; */
+        width: 100%;
+        height: 73px;
+        background-color: #243234;
+        padding: 15px;
+        /* line-height: 73px; */
+        padding: 25px 5px;
+    }
+/* Border-Bawah-Sedekah */
+
+.garis-konfirmasi-detailArtikel{
+    padding: 0 15px
+}
+
+.navbar-hijau{
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: normal;
+    background: rgb(65, 206, 152)!important;
+    padding: 7px 40px;
+}
+
+.fb-sosmed-detail-artikel{
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #475993;
+    cursor: pointer;
+}
+
+.wa-sosmed-detail-artikel{
+    width: 100%;
+    height: 40px;
+    border-radius: 9px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #1bd741;
+    cursor: pointer;
+}
+
+.sosmed-detail-artikel{
+    padding: 0 35px; 
+} 
+
+.komentar-detail-artikel p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin: 30px 18px 5px;
+}
+
+.img-user-detail-artikel{
+    width: 41px;
+    height: 48px;
+    object-fit: contain;
+    opacity: 0.78;
+}
+
+.isi-komentar-detail-artikel{
+    border-top: 1px solid #ababab;
+    border-bottom: 1px solid #ababab;
+    padding: 10px 0;
+}
+
+.fb-komen{
+    object-fit: contain;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal; 
+    letter-spacing: normal;
+    color: #475993;
+}
+
+.card-kiri-detail-artikel{
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 14px 18px;
+    border-radius: 7px 7px 0 0;
+}
+
+.card-title-detail-artikel{
+    width: 508px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.text-muted-detail-artikel{
+    /* height: 20px; */
+    opacity: 0.47;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 36px;
+}
+
+.card-text-detail-artikel{
+    /* height: 172px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-text-bawah-detail-artikel{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.img-detail-artikel{
+    margin-top: 18px;
+    margin-bottom: 18px;
+    width: 469px;
+    height: 523px;
+    object-fit: contain;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+}
+/* ---------- Akhir Artikel ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Tentang Kami */
+.bg-tentang-kami{
+    background-image: url(../img/bg-tentangkami.png);
+    width: 100%;
+    height: 588px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-isi-tentang-kami{
+    margin-bottom: 54px;
+}
+
+.border-tentang-kami{
+    width: 100%;
+    height: 75px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #cbc9c9;
+    background-color: #ffffff;
+    margin-top: 54px;
+}
+
+.border-tentang-kami p{
+    font-size: 15px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+    line-height: 75px;
+    padding-left: 45px;
+}
+
+.judul-isi-tentang-kami,
+.paragraf-tentang-kami{
+    /* width: 645px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+    padding-top: 15px;
+}
+
+.paragraf-tentang-kami span,
+.judul-isi-tentang-kami span{
+    font-weight: bold;
+    color: #c31256;
+}
+
+
+/* Akhir Tentang Kami */
+
+.container-invoice{
+    margin: 150px auto 63px;
+    padding: 0 100px;
+}
+
+.container-card-invoice{
+    padding: 0 130px;
+    margin: 0 auto;
+}
+
+.card-invoice{
+    width: 100%;
+    height: 1410px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #acabab;
+    background-color: #ffffff;
+}
+
+.judul-invoice{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 43px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 36px;
+}
+
+.img-invoice{
+    margin: 27px 325px;
+}
+
+.text-invoice {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 27px;
+}
+
+.invoice-transaksi{
+    border-bottom: 2px solid #acabab;
+    /* width: 80%; */
+    /* padding: 0 45px; */
+    /* margin: auto 94px; */
+    margin-top: 54px;
+    width: 80%;
+    margin-left: 90px;
+}
+
+.card-invoice-transaksi{
+    width: 100%;
+    height: 282px;
+    border-radius: 29px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #707070;
+    background-color: rgba(213, 252,219, 0.5);
+    margin-bottom: 54px;
+}
+
+.card-invoice-transaksi p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding: 0px 36px;
+    margin-top: 36px;
+}
+
+.invoice-total{
+    margin-top: 73px;
+    display: flex;
+}
+
+.text-invoice-total{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000; 
+    flex: 1;
+}
+
+.num-invoice-total{
+    width: 185px;
+    height: 48px;
+    opacity: 0.81;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.tulisan-kanan-invoice{
+    padding-top: 35px;
+}
+
+.img-atm{
+    width: 100%;
+    object-fit: contain;
+}
+
+.text-transfer,
+.text-transfer-bawah{
+    width: 594px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.text-transfer span{
+    font-weight: bold;
+}
+
+.text-transfer-bawah span{
+    font-style: italic;
+}
+
+.text-bca{
+    width: 71px;
+    height: 48px;
+    opacity: 0.81;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.text-rek{
+    width: 267px;
+    height: 66px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* SK */
+.bg-sk{
+    background-image: url(../img/bg-sk.png);
+    width: 100%;
+    height: 589px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-isi-sk{
+    margin: 54px 0;
+}
+
+.isi-sk{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #404040;
+    margin-bottom: 27px;
+}
+
+/* Nav Tabs */
+.tab-content-sk{
+    padding: 45px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+}
+
+.judul-isi-sk,
+.paragraf-sk{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.judul-isi-sk-umum,
+.paragraf-sk-umum{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.judul-isi-sk-umum{
+    font-weight: bold;
+}
+
+.nav-tabs-sk .nav-item-sk.show .nav-link-sk, 
+.nav-tabs-sk .nav-link-sk{
+    border: none;
+    color: #696666;
+    padding: 0;
+    text-decoration: none;
+    /* width: 1227px; */
+    height: 90px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    /* border: solid 0.5px #c9c9c9; */
+    background-color: #ffffff;
+    line-height: 90px;
+}
+
+.nav-tabs-sk .nav-item-sk.show .nav-link-sk, 
+.nav-tabs-sk .nav-link-sk:not(:last-child){
+    border-right: 1px solid #dee2e6;
+}
+
+.nav-tabs-sk .nav-item-sk.show .nav-link-sk, 
+.nav-tabs-sk .nav-link-sk.active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c31256;
+    line-height: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid #c31256;
+    padding: 0;
+    text-decoration: none;
+    /* width: 1227px; */
+    height: 90px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    /* border: solid 0.5px #c9c9c9; */
+    background-color: #ffffff;
+}
+/* Nav Tabs */
+/* Akhir SK */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* FAQ */
+
+.container-faq{
+    padding: 0 200px;
+    margin: 0 auto;
+}
+
+.bg-faq{
+    background-image: url(../img/bgfaq.png);
+    width: 100%;
+    height: 589px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bg-isi-faq{
+    margin: 54px 0;
+}
+
+.border-atas-faq{
+    height: 77px;
+    background-color: #243234;
+    padding: 20px 0;
+    overflow: hidden;
+}
+
+.back-faq img{
+    width: 100%;
+}
+
+.form-group-faq{
+    /* width: 649.4px; */
+    width: 100%;
+    height: 30px;
+    opacity: 0.8;
+    border-radius: 15px;
+    -webkit-backdrop-filter: blur(30px);
+    backdrop-filter: blur(30px);
+    background-color: #ffffff;
+    padding: 0 15px;
+}
+
+.btn-border-faq{
+    width: 50%;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    color: white;
+    text-align: center;
+    line-height: 0;
+}
+
+.isi-faq .judul-faq{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+
+.mb-0 > a {
+    display: block;
+    position: relative;
+}
+
+.mb-0 > a:after {
+    content: "\f078"; /* fa-chevron-down */
+    font-family: 'FontAwesome';
+    position: absolute;
+    right: 0;
+}
+
+.mb-0 > a[aria-expanded="true"]:after {
+    content: "\f077"; /* fa-chevron-up */
+}
+
+.link-judul-faq{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    text-decoration: none;
+}
+
+.link-judul-faq.collapsed{
+    color: #404040;
+}
+
+.link-judul-faq:hover{
+    text-decoration: none;
+}
+
+
+.card-body-faq p{
+    width: 75%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #404040;
+}
+/* Akhir FAQ */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Kebijakan */
+.bg-kebijakan{
+    background-image: url(../img/bgkebijakan.png);
+    width: 100%;
+    height: 589px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container-kebijakan{
+    padding: 36px;
+}
+
+.bg-isi-kebijakan{
+    margin: 54px 0;
+}
+
+.judul-paragraf-kebijakan,
+.judul-isi-kebijakan,
+.paragraf-kebijakan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #696666;
+}
+
+.judul-paragraf-kebijakan{
+    margin-bottom: 36px;
+}
+
+.judul-isi-kebijakan{
+    font-weight: bold;
+}
+
+.paragraf-kebijakan{
+    margin-top: 5px;
+}
+/* Akhir Kebijakan */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Bayar Zakat*/
+.bg-isi-bayar-zakat{
+    margin-top: 130px;
+    margin-bottom: 72px;
+}
+
+.border-bayar-zakat{
+    width: 100%;
+    height: 81px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+}
+
+.border-bayar-zakat h3{
+    /* width: 438px;
+    height: 51px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 81px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* Akhir Pembayaran Sedekah */
+
+
+/* Pembayaran Sedekah */
+/* dropdown */
+.nom__dropdown {
+    height: 40px; /* sama kan */
+    width: 95%;
+    position: relative;
+    border-radius: 11px;
+    border: solid 1px #707070;
+}
+.nom__dropdown__field {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    padding: 0 16px;
+    display: flex;
+    width: 100%;
+}
+.nom__dropdown__field__input {
+    padding-left: 4px;
+    border:none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+.nom__dropdown__btn {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.nom__dropdown__list-wrapper {
+    position: absolute;
+    top: 40px; /* sama kan */
+    width: 100%;
+    border: 1px solid gray;
+    padding: 8px 0;
+    display: none;
+    z-index: 2;
+    background-color: #fff;
+}
+.nom__dropdown__list-wrapper._active {
+    display: block;
+}
+.nom__dropdown__list-wrapper button {
+    width: 100%;
+    text-align: left;
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: .2s ease-in-out;
+}
+.nom__dropdown__list-wrapper button:hover {
+    background-color: #ececec;
+}
+.nom__dropdown__list-wrapper button label {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    margin: -8px -16px;
+    padding: 8px 16px;
+}
+/* dropdown */
+
+.title-bayar-zakat{
+    /* width: 214px; */
+    height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 50px;
+}
+
+.form-bayar-zakat{
+    width: 100%;
+    /* height: 56px; */
+    border-radius: 11px;
+    border: solid 1px #707070;
+    background-color: #f1f1f1;
+}
+
+.text-nom-bayar-zakat{
+    height: 21px;
+    opacity: 0.77;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    position: relative;
+    bottom: 10px;
+}
+
+.form-bayar-zakat-1{
+    width: 95%;
+    border-radius: 11px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 16px;
+}
+
+.check-bayar-zakat{
+    position: relative;
+    bottom: 27px;;
+}
+
+.title-doa-bayar-zakat{
+    /* width: 214px; */
+    height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.control-bayar-sedekah{
+    width: 100%;
+    height: 137px;
+    border-radius: 11px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+
+.check-label-bayar-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position: relative;
+    bottom: 4px;
+}
+
+.check-bayar-zakar-1{
+    position: relative;
+    bottom: 13px;;
+}
+
+.btn-bayar-zakat-1{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.btn-bayar-zakat-1:hover{
+    transform: scale(1.01);
+    font-size: 17px;
+}
+/* Pembayaran Sedekah */
+/* Akhir Bayar Zakat*/
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Riwayat Sedekah ---------- */
+
+
+.bg-riwayat-sedekah{
+    margin: 110px 0;
+}
+
+.card-riwayat-kiri{
+    width: 100%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-bottom: 5px solid #c31256;
+}
+
+.card-riwayat-kiri img{
+    /* width: 323px; */
+    /* height: 323px; */
+    object-fit: contain;
+}
+
+.card-title-riwayat-kiri{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c31256;
+}
+
+.profile-riwayat{
+    padding: 9px;
+}
+
+.profile-riwayat span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.profile-riwayat img{
+    width: 22.5px;
+    height: 26.3px;
+    object-fit: contain;
+}
+
+.profile-riwayat a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.profile-riwayat-zakat a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.garis-riwayat{
+    border: 1px solid #c31256;
+    width: 80%;
+    margin: 18px 31px 27px;
+}
+
+.btn-riwayat{
+    width: 100%;
+    object-fit: contain;
+    background-color: #c31256;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-riwayat:hover{
+    transform: scale(1.02);
+    color: white;
+}
+
+.judul-riwayat-kanan{
+    width: 216px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.garis-judul{
+    border-bottom: 3px solid #c31256;
+    width: 70%;
+    margin-bottom: 36px;
+}
+
+.card-body-riwayat{
+    padding: 45px;
+}
+
+.text-total-num{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.total-num{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    position: relative;
+    bottom: 18px;
+}
+
+.table-data-riwayat thead{
+    background-color: #c31256;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-status-riwayat{
+    width: 100%;
+    height: 28px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: #12c37f;
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-status-riwayat-1{
+    width: 100%;
+    height: 28px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: #f28d49;
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.logo-total-riwayat{
+    display: flex;
+    border-bottom: 1px solid #c31256;
+    margin-bottom: 27px;   
+}
+
+.text-total{
+    flex: 1;
+    margin-left: 27px;
+}
+
+.logo-total{
+    width: 70.1px;
+    height: 52.6px;
+    object-fit: contain;
+}
+
+@media(max-width:768px){
+    .card-img-riwayat{
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+        margin: 15px auto 0;
+    }
+
+    .profile-riwayat{
+        margin: 0 150px;
+        padding: 9px 82px;
+    }
+
+    .profile-riwayat span{
+        font-size: 17px;
+    }
+
+    .garis-riwayat{
+        border: 1px solid #c31256;
+        width: 80%;
+        margin: 18px 31px 27px 66px;
+    }
+
+    .card-riwayat-kiri{
+        margin-bottom: 90px;
+    }
+
+    .btn-riwayat{
+        width: 80%;
+        margin: 0 67px;
+    }
+
+    .btn-riwayat:hover{
+        transform: scale(1.01);
+        color: white;
+    }
+}
+/* ---------- Riwayat Sedekah ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Riwayat Sedekah ---------- */
+
+
+.bg-riwayat-zakat{
+    margin: 110px 0;
+}
+
+.card-riwayat-zakat-kiri{
+    width: 100%;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    border-bottom: 5px solid #c31256;
+}
+
+.card-riwayat-zakat-kiri img{
+    /* width: 323px; */
+    /* height: 323px; */
+    object-fit: contain;
+}
+
+.card-title-riwayat-zakat-kiri{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #c31256;
+}
+
+.profile-riwayat-zakat{
+    padding: 9px;
+}
+
+.profile-riwayat-zakat span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.profile-riwayat-zakat img{
+    width: 22.5px;
+    height: 26.3px;
+    object-fit: contain;
+}
+
+.garis-riwayat-zakat{
+    border: 1px solid #c31256;
+    width: 80%;
+    margin: 18px 31px 27px;
+}
+
+.btn-riwayat-zakat{
+    width: 100%;
+    object-fit: contain;
+    background-color: #c31256;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-riwayat-zakat:hover{
+    transform: scale(1.02);
+    color: white;
+}
+
+.judul-riwayat-zakat-kanan{
+    width: 216px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.garis-judul-zakat{
+    border-bottom: 3px solid #c31256;
+    width: 70%;
+    margin-bottom: 36px;
+}
+
+.card-body-riwayat-zakat{
+    padding: 45px;
+}
+
+.text-total-num-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.total-num-zakat{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    position: relative;
+    bottom: 18px;
+}
+
+.table-data-riwayat-zakat thead{
+    background-color: #c31256;
+    color: #ffffff;
+    text-align: center;
+}
+
+.btn-status-riwayat{
+    width: 100%;
+    height: 28px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: #12c37f;
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.btn-status-riwayat-1{
+    width: 100%;
+    height: 28px;
+    line-height: 0px;
+    border-radius: 10px;
+    background-color: #f28d49;
+    color: white;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+}
+
+.logo-total-riwayat-zakat{
+    display: flex;
+    border-bottom: 1px solid #c31256;
+    margin-bottom: 27px;   
+}
+
+.text-total-zakat{
+    flex: 1;
+    margin-left: 27px;
+}
+
+.logo-total-zakat{
+    width: 70.1px;
+    height: 52.6px;
+    object-fit: contain;
+}
+
+@media(max-width:768px){
+    .card-img-riwayat-zakat{
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+        margin: 15px auto 0;
+    }
+
+    .profile-riwayat-zakat{
+        margin: 0 150px;
+        padding: 9px 82px;
+    }
+
+    .profile-riwayat-zakat span{
+        font-size: 17px;
+    }
+
+    .garis-riwayat-zakat{
+        border: 1px solid #c31256;
+        width: 80%;
+        margin: 18px 31px 27px 66px;
+    }
+
+    .card-riwayat-zakat-kiri{
+        margin-bottom: 90px;
+    }
+
+    .btn-riwayat-zakat{
+        width: 80%;
+        margin: 0 67px;
+    }
+
+    .btn-riwayat-zakat:hover{
+        transform: scale(1.01);
+        color: white;
+    }
+}
+/* ---------- Riwayat Sedekah ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+.image-donasi{
+    height: 500px;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    /* margin-top: 72px; */
+    position: relative;
+    background-position: bottom;
+}
+
+.image-blur{
+    position: absolute;
+    height: 164px;
+    bottom: 0;
+    width: 100%;
+    filter: blur(5px);
+    background-position: bottom;
+}
+
+.text-blur-img-donasi{
+    position: absolute;
+    /* height: 164px; */
+    bottom: 12px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.47);
+    padding: 20px;
+}
+
+.text-blur-img-donasi .text-donasi-kiri{
+    /* width: 380px; */
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    padding: 24px 27px;
+}
+
+.col-kanan-donasi{
+    display: flex;
+}
+
+.col-kanan-atas{
+    padding: 0 30px;
+}
+
+.col-kanan-atas span{
+    display: block;
+}
+
+.text-col-kanan-atas{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.num-col-kanan-atas{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.progress-bar-donasi{
+    padding: 0 24px;
+}
+
+.progress-bawah-donasi{
+    margin: 36px 0 22px 0px;
+    position: relative;
+    /* top: 110px; */
+    border: .5px solid #ababab;
+
+    width: 90%;
+    height: 27px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #efefef;
+}
+  
+.progress-atas-donasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 1.92;
+    letter-spacing: normal;
+    color: #fff;
+    position: relative;
+    top: -1px;
+    left: -1px;
+    height: 27px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #12c37f;
+}
+
+.bg-detail-program-atas{
+    padding-top: 72px;
+    background-color: #efefef;
+    /* height: 800px; */
+}
+
+.bg-nav-tabs{
+    background-color: #fff;
+    padding-top: 27px;
+    margin-top: 27px;
+    margin: 27px 0;
+    /* height: 970px; */
+}
+
+.artikel-update{
+    margin-top: 54px;
+}
+
+.text-artikel-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 21px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+}
+
+.btn-atas-update{
+    width: 100%;
+    height: 54px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    margin-bottom: 12px;
+    line-height: 54px;
+    cursor: pointer;
+}
+
+.btn-atas-update a{
+    text-decoration: none;
+}
+
+.btn-atas-update span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    cursor: pointer;
+    /* padding: 0 90px; */
+}
+
+.btn-bawah-update{
+    width: 100%;
+    height: 54px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #efefef;
+    background-color: #5381c4;
+    line-height: 54px;
+    /* padding: 0 10px; */
+}
+
+.btn-bawah-update span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    /* padding: 0 40px; */
+}
+
+.btn-bawah-update .btn-sosmed{
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+    position: relative;
+    bottom: 2px;
+    border-right: 1px solid #fff;
+}
+
+@media (max-width:1199px){
+    .text-blur-img-donasi .text-donasi-kiri{
+        font-size: 25px;
+    }
+}
+
+@media (max-width:991px){
+    .text-blur-img-donasi .text-donasi-kiri{
+        font-size: 16px;
+    }
+
+    .num-col-kanan-atas{
+        font-size: 11px;
+    }
+
+    .progress-bawah-donasi{
+        margin: 23px 0 7px 0px;
+    }
+
+    .text-artikel-update{
+        font-size: 16px;
+    }
+
+    .btn-atas-update{
+        height: 50px;    
+    }
+
+    .btn-atas-update span{
+        font-size: 14px;
+    }
+
+    .btn-bawah-update{
+        height: 50px;
+    }
+
+    .btn-bawah-update span{
+        font-size: 14px;
+    }
+}
+
+/* Nav Tabs */
+
+.tab-content-update{
+    padding: 0;
+    margin-top: 9px;
+}
+
+.nav-tabs-update .nav-item-update.show .nav-link-update, .nav-tabs-update .nav-link-update{
+    border: none;
+    color: #696666;
+    padding: 0 162px;
+    text-decoration: none;
+    height: 63px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    line-height: 63px;
+}
+
+.nav-tabs-update .nav-item-update.show .nav-link-update, .nav-tabs-update .nav-link-update.active{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #c31256;
+    line-height: 50px;
+    font-weight: bold;
+    border-bottom: 3px solid #c31256;
+}
+
+.nav-tabs-update .nav-item-update.show .nav-link-update, .nav-tabs-update .nav-link-update:not(:last-child){
+    border-right: 1px solid #dee2e6;
+}
+
+.border-atas-kanan-update{
+    margin-top: 36px;
+    width: 100%;
+    height: 88px;
+    border-radius: 10px;
+    background-color: #bbefdb;
+    line-height: 88px;
+    /* padding: 0 81px; */
+    margin-bottom: 36px;
+}
+
+.border-atas-kanan-belum-update{
+    margin-top: 36px;
+    width: 100%;
+    height: 88px;
+    border-radius: 10px;
+    background-color: #bbefdb;
+    line-height: 88px;
+    margin-bottom: 36px;
+}
+
+.border-atas-kanan-update .update{
+    width: 388px;
+    height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    padding: 0 18px;
+}
+
+.border-atas-kanan-belum-update .belum-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    padding: 0 300px;
+}
+
+.btn-lihat-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 5px;
+    background-color: #c31256;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+    width: 22%;
+}
+
+.card-body-bawah-update{
+    padding: 20px 40px;
+}
+
+.card-title-bawah-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: italic;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    margin-bottom: 27px;
+}
+
+.card-text-bawah-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+  
+}
+
+.card-update{
+    margin-top: 36px;
+    border-radius: 5px 5px 0 0;
+    margin-bottom: 10px;
+}
+
+.card-header:first-child{
+    border-radius: 5px 5px 0 0;
+}
+
+.card-header-update{
+    background-color: #c31256;
+    height: 80px;
+}
+
+.link-judul-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #fff;
+    text-decoration: none;
+}
+
+.link-judul-update.collapsed{
+    color: #fff;
+}
+
+.link-judul-update:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.link-judul-update span{
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.mb-1 > a {
+  display: block;
+  position: relative;
+}
+.mb-1 > a:after {
+  content: "\f078"; /* fa-chevron-down */
+  font-family: 'FontAwesome';
+  position: absolute;
+  right: 0;
+  bottom: 12px;
+  font-size: 27px;
+}
+.mb-1 > a[aria-expanded="true"]:after {
+  content: "\f077"; /* fa-chevron-up */
+}
+
+.judul-card-update-1{
+    margin-left: 15px;
+    margin-top: 36px;
+}
+
+.garis-judul-card-update-1{
+    border: 2px solid #c31256;
+    margin-bottom: 27px;
+    margin-left: 15px;
+}
+
+.card-kanan-update{
+    margin: 5px 0;
+}
+
+.card-update-1,
+.card-update-2{
+    width: 100%;
+    margin-left: 15px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 1px #efefef;
+    background-color: #ffffff;
+    margin-bottom: 36px;
+}
+
+.card-update-1 img,
+.card-update-2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.avatar-update{
+    display: flex;
+}
+
+.avatar-update-1{
+    margin-left: 22px;
+    position: relative;
+    bottom: 5px;
+}
+
+.nama-avatar-update-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+}
+
+.num-avatar-update-1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+}
+
+.text-update p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+}
+
+.border-bawah-update{
+    width: 100%;
+    height: 73px;
+    background-color: #243234;
+    padding: 15px;
+    /* line-height: 73px; */
+    padding: 25px 5px;
+    /* margin-top: 20px; */
+}
+
+.border-bawah-update span{
+    width: 100%;
+    /* height: 20px; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    /* text-align: center; */
+    color: #ffffff;
+}
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ---------- Belum Update ---------- */
+
+
+.border-atas-kanan-belum-update{
+    margin-top: 36px;
+    width: 100%;
+    height: 88px;
+    border-radius: 10px;
+    background-color: #bbefdb;
+    line-height: 88px;
+    margin-bottom: 36px;
+}
+
+.border-atas-kanan-belum-update .belum-update{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    padding: 0 300px;
+}
+
+/* ---------- Akhir Belum Update ---------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Donasi */
+
+.bg-donasi{
+    padding-top: 72px;
+    /* background-color: #efefef; */
+    /* height: 800px; */
+}
+
+/* Pembayaran Sedekah */
+.border-donasi{
+    width: 100%;
+    height: 81px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    border-radius: 10px 10px 0 0;
+    margin-top: 72px;
+}
+
+.border-donasi h3{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    text-align: center;
+    line-height: 81px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+/* Akhir Pembayaran Sedekah */
+
+
+/* Pembayaran Sedekah */
+
+.card-bawah-donasi{
+    border-radius: 0 0 10px 10px; 
+    margin-bottom: 81px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+
+/* dropdown */
+.nom__dropdown {
+    height: 40px; /* sama kan */
+    width: 95%;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+.nom__dropdown__field {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    left: 0;
+    padding: 0 16px;
+    display: flex;
+    width: 100%;
+}
+.nom__dropdown__field__input {
+    padding-left: 4px;
+    border:none;
+    width: 100%;
+    outline: none;
+    background-color: transparent;
+}
+.nom__dropdown__btn {
+    position: absolute;
+    top: 50%;
+    right: 16px;
+    transform: translate(0, -50%);
+    cursor: pointer;
+}
+
+.nom__dropdown__list-wrapper {
+    position: absolute;
+    top: 40px; /* sama kan */
+    width: 100%;
+    border: 1px solid gray;
+    padding: 8px 0;
+    display: none;
+    z-index: 2;
+    background-color: #fff;
+}
+.nom__dropdown__list-wrapper._active {
+    display: block;
+}
+.nom__dropdown__list-wrapper button {
+    width: 100%;
+    text-align: left;
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    outline: none;
+    color: black;
+    text-decoration: none;
+    padding: 8px 16px;
+    transition: .2s ease-in-out;
+}
+.nom__dropdown__list-wrapper button:hover {
+    background-color: #ececec;
+}
+.nom__dropdown__list-wrapper button label {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+    margin: -8px -16px;
+    padding: 8px 16px;
+}
+/* dropdown */
+
+.title-donasi{
+    /* width: 214px; */
+    height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-top: 54px;
+}
+
+.form-donasi{
+    width: 100%;
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+}
+
+.text-nominal{
+    height: 21px;
+    opacity: 0.77;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    position: relative;
+    bottom: 10px;
+}
+
+.form-donasi-1{
+    width: 95%;
+    border-radius: 11px;
+    background-color: #ffffff;
+    position: relative;
+    bottom: 16px;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #b9b9b9;
+}
+
+.check-donasi{
+    position: relative;
+    bottom: 27px;;
+}
+
+.title-doa{
+    /* width: 214px; */
+    height: 21px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.control-donasi{
+    width: 100%;
+    height: 137px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+
+.check-label-donasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position: relative;
+    bottom: 4px;
+}
+
+.check-donasi-1{
+    position: relative;
+    bottom: 13px;;
+}
+
+.btn-donasi-1{
+    width: 90%;
+    height: 45px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+}
+
+.btn-donasi-1:hover{
+    transform: scale(1.01);
+    font-size: 17px;
+}
+
+@media(max-width:1199px){
+    .card-atas-donasi{
+        padding: 20px 0;
+    }
+}
+
+@media(max-width:991px){
+    .card-atas-donasi{
+        margin-bottom: 15px;
+    }
+}
+
+@media(max-width:768px){
+    .card-atas-donasi{
+        margin-bottom: 15px;
+    }
+}
+/* Pembayaran Sedekah */
+
+/* Akhir Donasi */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Ganti Password */
+.bg-ganti-pass{
+    padding: 72px 0;
+}
+.card-ganti-pass{
+    margin: 0 auto;
+    width: 520px;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+    padding: 63px 54px;
+}
+
+.card-title-ganti-pass{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-text-ganti-pass{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    padding-bottom: 27px;
+}
+
+.form-group-ganti-pass label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.form-group-ganti-pass input{
+    height: 37px;
+    border-radius: 9px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+
+.btn-gantipass{
+    width: 193px;
+    height: 45px;
+    border-radius: 10px;
+    border: solid 1px #707070;
+    background-color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #ffffff;
+    margin-top: 63px;
+    margin-left: 95px;
+}
+/* Ganti Password */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Profile */
+.container-profile-kanan{
+    /* width: 90%; */
+    /* margin: 0 auto; */
+    /* width: 773px; */
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    padding: 2px 17px;
+    border-radius: 5px;
+    border: solid 0.5px #ababab;
+}
+
+.tab-content-profile{
+    padding: 40px;
+}
+
+.profile-profile{
+    padding: 9px;
+}
+
+.profile-profile span{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.profile-profile img{
+    width: 22.5px;
+    height: 26.3px;
+    object-fit: contain;
+}
+
+.garis-profile{
+    border: 1px solid #c31256;
+    width: 80%;
+    margin: 18px 31px 27px;
+}
+
+.btn-profile{
+    width: 100%;
+    object-fit: contain;
+    background-color: #c31256;
+    color: white;
+    border-radius: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.judul-profile-kanan{
+    width: 216px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.garis-judul-profile{
+    border-bottom: 3px solid #c31256;
+    width: 70%;
+    margin-bottom: 36px;
+}
+
+.col-form-label-profile{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+}
+
+.form-control-profile{
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+
+.btn-kanan-profile,
+.btn-kanan-profile-1{
+    width: 100%;
+    height: 30.6px;
+    background-color: #c31256;
+    color: white;
+    line-height: 0;
+    border-radius: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+    margin-top: 37px;
+}
+
+.btn-kanan-profile-2{
+    width: 20%;
+    height: 30.6px;
+    border-radius: 29px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #c31256;
+    line-height: 0;
+    color: white;
+}
+
+.img-profile{
+    margin-top: 72px;
+    margin-bottom: 18px;
+}
+
+.btn-img-1{
+    width: 40%;
+    height: 30px;
+    border-radius: 29px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #ffffff;
+    line-height: 0;
+    color: #c31256;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.text-profile-kanan{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #444142;
+    padding: 0 165px;
+}
+
+.border-bawah-profile{
+    margin-top: 81px;
+    width: 100%;
+    height: 73px;
+    background-color: #243234;
+    padding: 15px;
+    padding: 25px 5px;
+}
+/* Akhir Profile */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* Konfirmasi */
+
+.bg-konfirmasi{
+    padding: 90px 256px;
+}
+
+.card-konfirmasi{
+    /* margin-top: 90px; */
+    border-radius: 10px;
+    box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #ffffff;
+}
+
+.card-body-konfirmasi{
+    padding: 45px 63px;
+}
+
+.card-title-konfirmasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.card-text-konfirmasi{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+    position: relative;
+    bottom: 9px;
+    margin-bottom: 45px;
+}
+
+.form-control-konfirmasi{
+    width: 100%;
+    border-radius: 8px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+}
+
+.nominal-transaksi{
+    margin-bottom: 18px;
+}
+
+.nominal-transaksi .text-trans{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.nominal-transaksi .num-trans{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    display: block;
+}
+
+.form-group-konfirmasi label{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #000000;
+}
+
+.btn-konfirmasi-1{
+    width: 40%;
+    height: 27px;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #707070;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    color: #c31256;
+    margin-bottom: 9px;
+    line-height: 0;
+}
+
+.btn-konfirmasi-1:hover{
+    transform: scale(1.02);
+    font-size: 13px;
+}
+
+.btn-konfirmasi-2{
+    width: 40%;
+    height: 27px;
+    border-radius: 29px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    border: solid 0.5px #ababab;
+    background-color: #c31256;
+    line-height: 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+}
+
+.btn-konfirmasi-2:hover{
+    transform: scale(1.02);
+    font-size: 13px;
+}
+
+/* Akhir Konfirmasi */
+/* ---------------------------------------------------------------------------------------------------- */
